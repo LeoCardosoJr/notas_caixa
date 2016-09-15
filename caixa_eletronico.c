@@ -55,7 +55,7 @@ int main (void) {
 			} // Fim do if
 			
 		} // Fim do else
-	    printf("%d", invalido);
+		
 	}while(invalido == 1);
 	    
     return 0; // retorna ao SO que o programa foi concluído com sucesso
