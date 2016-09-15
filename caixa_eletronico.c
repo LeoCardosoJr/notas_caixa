@@ -44,20 +44,16 @@ int main (void) {
 		} // Fim do if
 		else{
 			
-			printf("Saques somente com valores que possam ser entregues com as notas de 100, 50, 20, 10, 5 e 2 reais\n\n");
-			printf("1 - Refazer saque\nQualquer telca - Sair\n");
-			setbuf(stdin, NULL);
-			invalido = (int) getch();
-			invalido -= 48; // 0 da tabela ASC = 48 a função getch pega o valor da tabela ASC
+			printf("Saques somente com valores que possam ser entregues com as notas de 100, 50, 20, 10, 5 e 2 reais\n\n");			
 			
 		} // Fim do else
 		
-		
+		printf("1 - Fazer saque\nQualquer telca - Sair\n");
+		setbuf(stdin, NULL);
+		invalido = (int) getch();
+		invalido -= 48; // 0 da tabela ASC = 48 a função getch pega o valor da tabela ASC	
 		
 	}while(invalido == 1);
-	
-	printf("\n\nPressione qualquer tecla para sair!");
-	getch();
 	
     return 0; // retorna ao SO que o programa foi concluído com sucesso
     
