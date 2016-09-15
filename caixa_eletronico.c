@@ -27,7 +27,7 @@ int main (void) {
 	   qtd5   = qtd_notas(&valor, 5.00);
 	   qtd2   = qtd_notas(&valor, 2.00);
 	   
-	   if(valor == 0){
+	    if(valor == 0){
 	   	
 			printf("A quantidade de notas de 100: %d\n", qtd100);
 			
@@ -50,14 +50,15 @@ int main (void) {
 			invalido = (int) getch();
 			invalido -= 48; // 0 da tabela ASC = 48 a função getch pega o valor da tabela ASC
 			
-			if(invalido != 1){
-				return 0;
-			} // Fim do if
-			
 		} // Fim do else
 		
+		
+		
 	}while(invalido == 1);
-	    
+	
+	printf("\n\nPressione qualquer tecla para sair!");
+	getch();
+	
     return 0; // retorna ao SO que o programa foi concluído com sucesso
     
 } // fim função main
