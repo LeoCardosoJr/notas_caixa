@@ -1,2 +1,2 @@
-# notas_caixa
-Usuário insere um número e o programa mostra quais as melhores cédulas para entregar da maior para a menor
+# Caixa eletrônico
+Usuário insere um valor para saque e o programa mostra quais notas entregar para entregar o menor número de notas possíveis
