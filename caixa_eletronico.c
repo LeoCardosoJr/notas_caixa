@@ -27,7 +27,7 @@ int main (void) {
 	   qtd5   = qtd_notas(&valor, 5.00);
 	   qtd2   = qtd_notas(&valor, 2.00);
 	   
-	    if(valor == 0){
+	    if(valor == 0){ // Se o valor pode ser entregue com as notas especifícadas
 	   	
 			printf("A quantidade de notas de 100: %d\n", qtd100);
 			
